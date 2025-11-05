@@ -13,18 +13,16 @@ The system uses **AI-based semantic matching** (ready for future Gemini/LLM inte
 ---
 
 ##💡 How It Works (Flow)
-Upload Resume:
+- **Upload Resume**:
 The user uploads a .pdf, .docx, or .txt resume.
 (Simulated parsing handled by parseResume() in api.js.)
-Extract Resume Data:
+- **Extract Resume Data**:
 The system extracts a mock summary, skills, and experience.
-Generate Recommendations:
+- **Generate Recommendations**:
 The frontend calls getRecommendations() (mock API) to fetch relevant internships.
-Display Results:
+- **Display Results**:
 Recommendations are shown in interactive cards with:
 Title, Company, Location
 Stipend, Duration
-
 Match Score (%)
-
 Reason for Recommendation
